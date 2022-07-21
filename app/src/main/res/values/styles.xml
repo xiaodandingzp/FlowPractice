@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivity2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">false</item><!--可以页面拉伸到状态栏顶部-->
+        <item name="android:windowTranslucentNavigation">true</item><!--可以页面拉伸到虚拟按键底部-->
+        <item name="android:statusBarColor">#00FFFFFF</item><!--设置状态栏的颜色-->
+    </style>
+
+</resources>
